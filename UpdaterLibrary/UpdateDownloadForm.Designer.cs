@@ -71,6 +71,7 @@
             this.Name = "UpdateDownloadForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Downloading Update";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.UpdateDownloadForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

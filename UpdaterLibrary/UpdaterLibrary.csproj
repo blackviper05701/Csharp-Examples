@@ -51,6 +51,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="UpdateAcceptForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateAcceptForm.Designer.cs">
+      <DependentUpon>UpdateAcceptForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpdateDownloadForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="UpdateAcceptForm.resx">
+      <DependentUpon>UpdateAcceptForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UpdateDownloadForm.resx">
       <DependentUpon>UpdateDownloadForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -79,6 +88,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\updater.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updater1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
